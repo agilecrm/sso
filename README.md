@@ -1,10 +1,10 @@
-##Setting up Single Sign-On with JWT (JSON Web Token)
+##Setting up single sign-on with JWT (JSON web token)
 
 [Agile CRM] (https://www.agilecrm.com/) is a new breed CRM software with sales and marketing automation.
 
 ###Table of contents
 
-**[SSO Introduction](#sso-introduction-)**
+**[SSO introduction](#sso-introduction-)**
 
 **[JWT implementation code examples](#jwt-implementation-code-examples-)**
 
@@ -14,23 +14,23 @@
 
 **[Error handling](#error-handling-)**
 
-**[Enabling JWT Single Sign-On in your Agile CRM](#enabling-jwt-single-sign-on-in-your-agile-crm-)**
+**[Enabling JWT single sign-on in your Agile CRM](#enabling-jwt-single-sign-on-in-your-agile-crm-)**
 
 **[Error handling](#important-information-)**
 
-###SSO Introduction : 
+###SSO introduction : 
 
 Single sign-on is a mechanism that allows you to authenticate users in your systems and subsequently tell Agile CRM that the user has been authenticated. 
 The user is then allowed to access Agile CRM without being prompted to enter separate login credentials. 
 
 At the core of single sign-on is a security mechanism that allows Agile CRM to trust the login requests it gets from your systems. Agile CRM only grants access to the users that have been authenticated by you. 
-Agile CRM SSO relies on a technology called JSON Web Token (JWT) for securing the exchange of user authentication data.
+Agile CRM SSO relies on a technology called JSON web token (JWT) for securing the exchange of user authentication data.
 
 ###JWT implementation code examples : 
 
 The files in this repository are examples and not guaranteed to run or be correct. They should explain you how you can make Agile CRM SSO work with JWT from your stack.
 
-###The Single Sign-On authentication process : 
+###The single sign-on authentication process : 
 
 Once you enable single sign-on, login requests are routed to a remote login URL (a login page that is external to your Agile CRM).
 
@@ -62,8 +62,8 @@ The JWT payload must be sent to your Agile CRM domain using the https protocol. 
 
 |Attribute|Mandatory|Description|
 |:----|:----------|:----------|
-|email|YES|Email of the user being signed in, used to uniquely identify the user record in Agile CRM.|
-|name|Yes|The name of this user. The user in Agile CRM will be created or updated in accordance with this. Name is case sensitive|
+|email|yes|Email of the user being signed in, used to uniquely identify the user record in Agile CRM.|
+|name|yes|The name of this user. The user in Agile CRM will be created or updated in accordance with this. Name is case sensitive|
 
 ###Error handling : 
 
@@ -78,6 +78,6 @@ The JWT payload must be sent to your Agile CRM domain using the https protocol. 
 5. You can desable SSO by deleting above configuration.
 
 
-###Important Information : 
+###Important information : 
 
 https://mycompany.agilecrm.com/login/normal is the alternative URL to login to Agile CRM in case SSO settings is not working from user end.
