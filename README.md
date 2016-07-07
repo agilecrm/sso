@@ -1,21 +1,22 @@
 ##Setting up Single Sign-On with JWT (JSON Web Token)
-=================
 
 [Agile CRM] (https://www.agilecrm.com/) is a new breed CRM software with sales and marketing automation.
 
 ###Table of contents
 
-**[SSO Introduction](#SSO Introduction--)**
+**[SSO Introduction](#sso-introduction-)**
 
-**[JWT implementation code examples](#jwt-implementation-code-examples--)**
+**[JWT implementation code examples](#jwt-implementation-code-examples-)**
 
-**[The single sign-on authentication process](#the-single-sign-on-authentication-process--)**
+**[The single sign-on authentication process](#the-single-sign-on-authentication-process-)**
 
-**[Configuring your JWT implementation](#configuring-your-jwt-implementation--)**
+**[Configuring your JWT implementation](#configuring-your-jwt-implementation-)**
 
-**[Error handling](#error-handling--)**
+**[Error handling](#error-handling-)**
 
-**[Enabling JWT Single Sign-On in your Agile CRM](#enabling-jwt-single-sign-on-in-your-agile-crm--)**
+**[Enabling JWT Single Sign-On in your Agile CRM](#enabling-jwt-single-sign-on-in-your-agile-crm-)**
+
+**[Error handling](#important-information-)**
 
 ###SSO Introduction : 
 
