@@ -14,9 +14,9 @@
 
 **[Error handling](#error-handling-)**
 
-**[Enabling JWT single sign-on in your Agile CRM](#enabling-jwt-single-sign-on-in-your-agile-crm-)**
+**[Enabling JWT single sign-on in your Agile CRM account](#enabling-jwt-single-sign-on-in-your-agile-crm-)**
 
-**[Error handling](#important-information-)**
+**[Important information](#important-information-)**
 
 ###SSO introduction : 
 
