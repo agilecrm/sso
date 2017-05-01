@@ -1,6 +1,6 @@
 ##Setting up single sign-on with JWT (JSON web token)
 
-[Agile CRM] (https://www.agilecrm.com/) is a new breed CRM software with sales and marketing automation.
+[Agile CRM](https://www.agilecrm.com/) is a new breed CRM software with sales and marketing automation.
 
 ###Table of contents
 
